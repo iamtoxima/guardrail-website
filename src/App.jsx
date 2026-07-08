@@ -19,7 +19,7 @@ function App() {
           <a href="#" className={activeTab === 'home' ? 'active' : ''} onClick={(e) => { e.preventDefault(); setActiveTab('home'); }}>Home</a>
           <a href="#" className={activeTab === 'docs' ? 'active' : ''} onClick={(e) => { e.preventDefault(); setActiveTab('docs'); }}>Documentation</a>
           <a href="#" className={activeTab === 'releases' ? 'active' : ''} onClick={(e) => { e.preventDefault(); setActiveTab('releases'); }}>Releases</a>
-          <a href="https://github.com/ifeoluwashola/guardrail" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/iamtoxima/guardrail" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
       </header>
 
@@ -36,7 +36,7 @@ function App() {
       </main>
 
       <footer>
-        <p>Guardrail CLI is Open Source (MIT License). Built to protect production environments.</p>
+        <p>Toxima CLI is Open Source (MIT License). Built to protect production environments.</p>
       </footer>
     </div>
   );
